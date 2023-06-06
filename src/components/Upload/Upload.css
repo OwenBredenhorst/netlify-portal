@@ -1,0 +1,93 @@
+
+*{
+    animation-duration: 4s;
+
+
+}
+.upload-form {
+    display: flex;
+    align-items: flex-start;
+    padding: 32px;
+    background-color: #2D2D2D;
+}
+
+.input-file {
+    float: left;
+    display: none;
+    transform: skew(-20deg) !important;
+
+}
+
+.file-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #8f00d3;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 32px;
+}
+
+.file-label:hover {
+    background-color: #2E8B57;
+}
+
+.file-label span {
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.submit-btn{
+    float: left;
+}
+
+.upload-new{
+    transform: skew(-0deg) !important;
+    height: 3.61rem;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown select {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    background-color: #2e2d2e;
+
+    color: white;
+    font-size: 20px;
+    margin-top: 0.5em;
+    height: 100%;
+
+
+}
+
+.dropdown select:focus {
+    outline: none;
+}
+
+.dropdown input {
+    padding: 8px 16px;
+    font-size: 26px;
+    border: none;
+    border-left: 1px solid #ccc;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.dropdown input:focus {
+    outline: none;
+}
+
+
